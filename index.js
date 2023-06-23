@@ -9,7 +9,7 @@ for(let i =0;i<(li.length);i++)
 function myfunc()
 {
    var t = this.innerHTML;
-   anime(t);
+   //anime(t);
    makesound(t);
    //
   
@@ -17,7 +17,7 @@ function myfunc()
 
 document.addEventListener("keypress",function(event){
     console.log(event.key);
-    anime(event.key);
+    //anime(event.key);
     //document.querySelector("."+event.key).style.color="white";
     makesound(event.key);
     //
@@ -55,8 +55,8 @@ function makesound(t){
 
 }
 
-function anime(t){
-    console.log(t);
-    document.querySelector("."+t).classList.add(".pressed");
-}
+//function anime(t){
+    //console.log(t);
+    //ocument.querySelector("."+t).classList.add(".pressed");
+//}
 
