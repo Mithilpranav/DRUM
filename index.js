@@ -31,9 +31,12 @@ function makesound(t){
     switch(t)
     {
      case "w":
+            {
+        alert("hi da mams");
          var g = new Audio("DRUM/sounds/tom-1.mp3");
          g.play();
          break;
+            }
      case "a":
          var g = new Audio("DRUM/sounds/tom-2.mp3");
          g.play();
