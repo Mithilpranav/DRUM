@@ -34,7 +34,8 @@ function makesound(t){
          var g = new Audio("sounds/tom-1.mp3");
          g.play();
          break;
-     
+
+            
     case "a":
          var g = new Audio("sounds/tom-2.mp3");
          g.play();
