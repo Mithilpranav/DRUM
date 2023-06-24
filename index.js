@@ -1,7 +1,7 @@
 var li=document.querySelectorAll("button");
 for(let i =0;i<(li.length);i++)
 {
-    document.querySelectorAll("button")[i].addEventListener("click",myfunc());
+    document.querySelectorAll("button")[i].addEventListener("click",myfunc);
 
     
     
@@ -34,35 +34,22 @@ function makesound(t){
          var g = new Audio("DRUM/sounds/tom-1.mp3");
          g.play();
          break;
-
-            
-    case "a":
+     case "a":
          var g = new Audio("DRUM/sounds/tom-2.mp3");
          g.play();
          break;
-    case "d":
+     case "d":
          var g = new Audio("DRUM/sounds/tom-3.mp3");
          g.play();
          break;
-    case "s":
+     case "s":
          var g = new Audio("DRUM/sounds/tom-4.mp3");
          g.play();
          break;
-    case "j":
-        var g = new Audio("DRUM/sounds/tom-5.mp3");
-        g.play();
-        break;
-    case "k":
-        var g = new Audio("DRUM/sounds/tom-6.mp3");
-        g.play();
-        break;
-                
-    case "j":
-        var g = new Audio("DRUM/sounds/tom-7.mp3");
-        g.play();
-        break;
-    
-    
+     case "j":
+         var g = new Audio("DRUM/sounds/tom-5.mp3");
+         g.play();
+         break;
  
     }
 
