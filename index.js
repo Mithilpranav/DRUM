@@ -40,23 +40,23 @@ function makesound(t){
          var g = new Audio("DRUM/sounds/tom-2.mp3");
          g.play();
          break;
-     case "d":
+    case "d":
          var g = new Audio("DRUM/sounds/tom-3.mp3");
          g.play();
          break;
-     case "s":
+    case "s":
          var g = new Audio("DRUM/sounds/tom-4.mp3");
          g.play();
          break;
-     case "j":
+    case "j":
          var g = new Audio("DRUM/sounds/tom-5.mp3");
          g.play();
          break;
-        case "k":
+    case "k":
             var g = new Audio("DRUM/sounds/tom-6.mp3");
             g.play();
             break;
-        case "j":
+    case "j":
             var g = new Audio("DRUM/sounds/tom-7.mp3");
             g.play();
             break;
