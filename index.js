@@ -49,17 +49,18 @@ function makesound(t){
          g.play();
          break;
     case "j":
-         var g = new Audio("DRUM/sounds/tom-5.mp3");
-         g.play();
-         break;
+        var g = new Audio("DRUM/sounds/tom-5.mp3");
+        g.play();
+        break;
     case "k":
-            var g = new Audio("DRUM/sounds/tom-6.mp3");
-            g.play();
-            break;
+        var g = new Audio("DRUM/sounds/tom-6.mp3");
+        g.play();
+        break;
+                
     case "j":
-            var g = new Audio("DRUM/sounds/tom-7.mp3");
-            g.play();
-            break;
+        var g = new Audio("DRUM/sounds/tom-7.mp3");
+        g.play();
+        break;
     
     
  
