@@ -18,7 +18,7 @@ function myfunc()
 document.addEventListener("keypress",function(event){
     console.log(event.key);
     //anime(event.key);
-    //document.querySelector("."+event.key).style.color="white";
+    document.querySelector("."+event.key).style.color="white";
     makesound(event.key);
     //
     
@@ -55,8 +55,4 @@ function makesound(t){
 
 }
 
-//function anime(t){
-    //console.log(t);
-    //ocument.querySelector("."+t).classList.add(".pressed");
-//}
 
