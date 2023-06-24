@@ -31,25 +31,34 @@ function makesound(t){
     switch(t)
     {
      case "w":
-         var g = new Audio("C:/Users/mithil pranav/Desktop/Drum Kit Starting Files/Drum Kit Starting Files/sounds/tom-1.mp3");
+         var g = new Audio("sounds/tom-1.mp3");
          g.play();
          break;
-     case "a":
-         var g = new Audio("C:/Users/mithil pranav/Desktop/Drum Kit Starting Files/Drum Kit Starting Files/sounds/tom-2.mp3");
+     
+    case "a":
+         var g = new Audio("sounds/tom-2.mp3");
          g.play();
          break;
      case "d":
-         var g = new Audio("C:/Users/mithil pranav/Desktop/Drum Kit Starting Files/Drum Kit Starting Files/sounds/tom-3.mp3");
+         var g = new Audio("sounds/tom-3.mp3");
          g.play();
          break;
      case "s":
-         var g = new Audio("C:/Users/mithil pranav/Desktop/Drum Kit Starting Files/Drum Kit Starting Files/sounds/tom-4.mp3");
+         var g = new Audio("sounds/tom-4.mp3");
          g.play();
          break;
      case "j":
-         var g = new Audio("C:/Users/mithil pranav/Desktop/Drum Kit Starting Files/Drum Kit Starting Files/sounds/tom-5.mp3");
+         var g = new Audio("sounds/tom-5.mp3");
          g.play();
          break;
+        case "k":
+            var g = new Audio("sounds/tom-6.mp3");
+            break;
+        case "j":
+            var g = new Audio("sounds/tom-7.mp3");
+            break;
+    
+    
  
     }
 
