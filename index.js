@@ -1,7 +1,7 @@
 var li=document.querySelectorAll("button");
 for(let i =0;i<(li.length);i++)
 {
-    document.querySelectorAll("button")[i].addEventListener("click",myfunc);
+    document.querySelectorAll("button")[i].addEventListener("click",myfunc());
 
     
     
