@@ -15,7 +15,7 @@ function myfunc()
   
 }
 
-document.addEventListener("keypress",function(event){
+document.addEventListener("keydown",function(event){
     console.log(event.key);
     //anime(event.key);
     document.querySelector("."+event.key).style.color="white";
