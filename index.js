@@ -15,7 +15,7 @@ function myfunc()
   
 }
 
-document.addEventListener("keydown",function(event){
+document.addEventListener("keypress",function(event){
     console.log(event.key);
     //anime(event.key);
     document.querySelector("."+event.key).style.color="white";
@@ -54,5 +54,6 @@ function makesound(t){
     }
 
 }
+
 
 
